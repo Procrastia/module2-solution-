@@ -1,0 +1,213 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+	}
+
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	overflow: auto;
+	font-size: 100%;
+
+}
+
+
+/* desktop */
+@media (min-width: 992px) {
+	
+h1 {
+	text-align: center;
+	margin: 3%;
+	font-size: 1.75em;
+	
+}
+
+section {
+	border: 1px solid black;
+	position: relative;
+	float: left;
+	width: 25%;
+	padding: 4px;
+	margin-right: 4%;
+	margin-left: 4%;
+	background-color: #999583;
+	
+}
+
+p {
+	
+	
+	padding: 50px 10px 10px 10px;
+	overflow: auto;
+
+}
+
+h2 {
+	position:absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid black;
+	width: 33.33%;
+	text-align: center;
+	font-size: 1.25em;
+	
+}
+
+
+.chicken {
+	background-color: #9AD9D1;
+}
+
+.beef {
+	background-color: #D9A4D9;
+}
+
+.sushi {
+	background-color: #8C6A8C;
+}
+
+}
+
+
+
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	h1 {
+	text-align: center;
+	margin: 3%;
+	font-size: 1.75em;
+	
+}
+
+.sect1 {
+	border: 1px solid black;
+	float: left;
+	width: 46%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	
+}
+
+.sect2 {
+	border: 1px solid black;
+	float: right;
+	width: 46%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.sect3 {
+	clear: both;
+	border: 1px solid black;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 5%;
+}
+
+section {
+	position: relative;
+}
+
+.chicken, .beef {
+	position:absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid black;
+	width: 33.33%;
+	text-align: center;
+	font-size: 1.25em;
+	
+}
+
+.sushi {
+
+	position:absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid black;
+	width: 16.66%;
+	text-align: center;
+	font-size: 1.25em;
+}
+p {
+	
+	background-color: #999583;
+	padding: 50px 10px 10px 10px;
+	overflow: auto;
+
+}
+
+.chicken {
+	background-color: #9AD9D1;
+}
+
+.beef {
+	background-color: #D9A4D9;
+}
+
+.sushi {
+	background-color: #8C6A8C;
+}
+}
+
+
+
+/* smartphone */
+
+@media (max-width: 767px) {
+
+	h1 {
+	text-align: center;
+	margin: 3%;
+	font-size: 1.75em;
+	
+}
+
+section {
+	border: 1px solid black;
+	position: relative;
+	float: left;
+	width: 93%;
+	padding: 4px;
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-bottom: 4%;
+	background-color: #999583;
+	
+}
+
+p {
+	
+	
+	padding: 50px 10px 10px 10px;
+	overflow: auto;
+
+}
+
+h2 {
+	position:absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid black;
+	width: 33.33%;
+	text-align: center;
+	font-size: 1.25em;
+	
+}
+
+.chicken {
+	background-color: #9AD9D1;
+}
+
+.beef {
+	background-color: #D9A4D9;
+}
+
+.sushi {
+	background-color: #8C6A8C;
+}
+}
